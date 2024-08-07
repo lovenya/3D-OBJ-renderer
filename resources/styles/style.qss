@@ -1,0 +1,21 @@
+ 
+/* style.qss */
+
+QMainWindow {
+    background-color: #f0f0f0;
+}
+
+QToolBar {
+    background-color: #dcdcdc;
+    spacing: 10px;
+}
+
+QToolBar::separator {
+    background-color: #aaaaaa;
+    width: 1px;
+    height: 1px;
+}
+
+QAction {
+    padding: 5px;
+}
